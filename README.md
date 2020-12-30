@@ -1,24 +1,30 @@
-# README
+# みんなの音作り
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+音作り研究サイト。自分のエフェクターボードを音源付きで投稿。音作りについて直接投稿者へ質問できるメッセージ機能付き。
 
-Things you may want to cover:
+## demo
 
-* Ruby version
+## 特徴
+- ボードの画像だけでなく、音源投稿もすることでより音作りのイメージがしやすい。
+- メッセージ機能で、直接投稿者に音作りに関する質問ができる。
 
-* System dependencies
+## 使い方
+URL乗せる
 
-* Configuration
+## 開発環境
+- Ruby
+- Ruby on Rails
 
-* Database creation
+## 背景
+コピーバンドを組んだ際に、毎度のように音作りの再現に苦戦していました。
+<br>ネットで根気強く探して同じ（似たような）ボードを組んでも同じような音が出ない、、、といった経験を経てようやく納得の行く音作りが完成しました。
+<br>自分か悩みに悩んで作り上げたボードとその音源を共有することで、同じように悩んでいる人の参考になるようなサイトを作りたい。
+<br>また、同じ曲の音作りでも、エフェクターの組み合わせは無数にあると思うので、それらを共有し会える場所がほしいと思って立ち上げました。
+<br>音作りが、コピバンの醍醐味であると思うので、その醍醐味を気軽に共有し合いましょう。
+<br>また、気になるあのエフェクターを買いたいけど、自分の持ってるエフェクターとの相性はどうなの？？ってときありますよね？
+<br>エフェクターのレビューサイトでは、商品単品の演奏動画が多いです。このサイトでは、投稿したボードの音源も添付することで、
+<br>従来のエフェクター投稿サイトにはない、「他エフェクターと組み合わせた音」を聞けるような環境を作りました。
 
-* Database initialization
+## 作者
+zibun
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
