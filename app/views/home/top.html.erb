@@ -3,30 +3,14 @@
 <head>
     <meta charset="utf-8">
     <title>みんなの音作り</title>
-    <link rel="stylesheet" href="home.scss">
+    <%= stylesheet_link_tag "home", :media => "all" %>
 </head>
 <body>
-    <header>
-        <h1>みんなの音作り</h1>
-        <a href="">ログイン</a>
-    </header>
+<header>
+    <%= link_to("みんなの音作り", "/", class:"header-logo") %>
+    <%= link_to("ログイン", "users/login_form", class:"header-list") %>
+</header>
     
-    <div class="main">
-        <h1>ログイン</h1>
-        <div class="main-form">
-            <div class="email">
-                <h2>Email</h2>
-                <input type="text">
-            </div>
-            <div class="password">
-                <h2>Password</h2>
-                <input type="text">
-            </div>
-            <input type="submit" value="ログイン">
-        </div>
-            <input type="submit" value="新規登録">
-            <input type="submit" value="パスワードを忘れた方">        
-    </div>
 
 </body>
 </html>

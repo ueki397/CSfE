@@ -6,17 +6,19 @@ header{
     border-bottom: 2px solid  aqua;
 }
 
-header h1{
-    float: left;
+.header-logo{
+    display: inline-block;
+    padding: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
 }
 
 
+
 .top-wrapper{
-    margin: 0 auto;
-    width: 1200px;
-    height: 990px;
-    background-image: url("back1.jpeg");
-    background-size: cover;
+    width: 100%;
+    height: auto;
 }
 
 .top-wrapper h1{
@@ -26,27 +28,29 @@ header h1{
 
 .top-wrapper input{
     margin-bottom: 10px;
-    display: inline-block;
 }
 
 .main-form{
-    text-align: center;
+    margin: 0 auto;
+    width:800px;
     padding: 40px;
     border: 2px solid aqua;
     border-radius: 30px;
     background-color: aliceblue;
-
+    opacity: 0.9;
+    text-align: center;
 }
 
-.main-form form{
-    width: 100%;
+.main-form h2{
+    border: 2px solid aqua;
+    padding: 0 50px;
 }
 
-
-.email h2{
-    text-align: left;
+.text{
+    width: 500px;
 }
 
-.password h2{
-    text-align: left;
+.button{
+    text-align: center;
+    margin-bottom:20px;
 }

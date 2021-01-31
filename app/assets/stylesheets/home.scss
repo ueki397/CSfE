@@ -6,12 +6,20 @@ header{
     border-bottom: 2px solid  aqua;
 }
 
-header h1{
-    float: left;
+.header-logo{
+    display: inline-block;
+    padding: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
 }
 
-header a{
-    margin: 30px;
+.header-list{
+    margin: 30px 50px;
+    padding: 0 30px;
     float : right;
+    background-color: aqua;
+    border-radius: 20px;
+    text-decoration: none;
 }
 
